@@ -1,0 +1,27 @@
+<div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="login-container">
+            <h1>Register</h1>
+           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form class="form-login" method="post" action="/register">
+            <label for="name">Usuario</label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome" />
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Digite seu email" />
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" placeholder="Digite sua senha" />
+            <label for="confirmpassword">Repita a Senha</label>
+            <input type="password" id="confirmpassword" name="confirmpassword" placeholder="Digite seu nome" />
+            <button type="submit">Entrar</button>
+        </form>
+        <h3>Conecte-se</h3>
+        <p>ja tem uma conta?</p>
+        <a class="button-cadastro" href="">Login</a>
+      </div>
+     
+    </div>
+  </div>
+</div>

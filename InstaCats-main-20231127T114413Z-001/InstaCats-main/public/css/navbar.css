@@ -1,0 +1,29 @@
+.nav-container{
+    background-color: #EB6440;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 160px;
+  
+}
+
+.nav-container img{
+    max-width: 73px;
+    max-height: 80px;
+    transform: rotate(180deg);
+}
+
+.link-container{
+    display: flex;
+   align-items: center;
+   gap: 20px;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 800;
+}
+
+.nav-container a:hover{
+    color: #fff;
+}
